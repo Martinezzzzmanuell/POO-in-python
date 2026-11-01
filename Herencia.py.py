@@ -1,3 +1,4 @@
+#HERENCIA
 class producto:
     def __init__(self ,nombre,stock,precio):
         self.nombre=nombre
@@ -12,9 +13,7 @@ class lecho(producto):
     def __init__(self,nombre,stock,precio):
         super().__init__(nombre,stock,precio)
 
-control=True
-def contol():
-    print("SE REALIZO UN CONTROL:")
+
 
 producto_1=producto("SALSA",10,10.00)
 producto_2=producto("HARINA",200,23.00)
